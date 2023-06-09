@@ -1,155 +1,169 @@
-h2, h4, h5,p, img{
-    opacity: 0.5;
+h2,
+h4,
+h5,
+p,
+img {
+  opacity: 0.5;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: helvetica;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow-x: hidden;
-    padding: 10px;
-    border-bottom: 1px solid seashell;
-    height: 69px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
 }
 
-.logo, .logo-img, .nav-links{
-    height: 50px;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
 }
 
-.nav-links{
-    align-items: center;
+.logo,
+.logo-img,
+.nav-links {
+  height: 50px;
 }
 
-ul li{
-    display: inline; 
-    margin-right: 15px;
+.nav-links {
+  align-items: center;
+}
+
+ul li {
+  display: inline;
+  margin-right: 15px;
 }
 
 ul li a {
-    color: seashell;
-    font-family: helvetica;
+  color: seashell;
+  font-family: helvetica;
 }
 
-.hero{
-    min-height: 700px;
-    background: url(/images/img-mission-background.webp) ;
-    margin: -1.25em auto 100px ;
+.hero {
+  min-height: 700px;
+  background: url(/images/img-mission-background.webp);
+  margin: -1.25em auto 100px;
 }
 
-.hero, #locations{
-    background-size: cover;
-    width: 94%;
-    
+.hero,
+#locations {
+  background-size: cover;
+  width: 94%;
 }
 
-article{
-text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 350px;
-    background-color: black;
-    color: seashell;
+article {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 350px;
+  background-color: black;
+  color: seashell;
 }
 
-.of-the-month, #locations{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.of-the-month,
+#locations {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.images{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 20px;
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
 }
 
-.item img{
-    height: 200px;
-    width: 300px;
+.item img {
+  height: 200px;
+  width: 300px;
 }
 
-.item p{
-    margin: 10px;
+.item p {
+  margin: 10px;
 }
 
-#locations{
-margin: 100px auto 0;
-background-image: url(/images/img-locations-background.webp);
-height: 600px;
-color: seashell;
+#locations {
+  margin: 100px auto 0;
+  background-image: url(/images/img-locations-background.webp);
+  height: 600px;
+  color: seashell;
 }
 
-#locations .text{
-    margin-top: 50px;
+#locations .text {
+  margin-top: 50px;
 }
 
-.boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
-.box{
-    background-color: black;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    width: 300px;
+.box {
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
 }
 
-.address{
-    text-align: center;
-    height: 200px;
-    margin-top: 0;
+.address {
+  text-align: center;
+  height: 200px;
+  margin-top: 0;
 }
 
-footer h4{
-    margin-left: 20px;
+footer h4 {
+  margin-left: 20px;
 }
 
-@media screen and (max-width:480px) {
-    /* .of-the-month, #locations{
+@media screen and (max-width: 480px) {
+  /* .of-the-month, #locations{
         flex-direction: row;
     } */
 
-   .images{
+  header {
     display: block;
     width: 100%;
-   }
+    height: 15%;
+    text-align: center;
+  }
 
-    #locations{
-        margin-bottom:470px;
-    }
+  .images {
+    display: block;
+    width: 100%;
+  }
 
-    .box{
-        background-color: seashell;
-        color: black;
-    }
+  #locations {
+    margin-bottom: 480px;
+  }
 
-    .box h2{
-         opacity: 0.8;
-    }
+  .box {
+    background-color: seashell;
+    color: black;
+  }
 
-    footer h4{
-        margin: 0 auto;
-        text-align: center;
-    }
+  .box h2 {
+    opacity: 0.8;
+  }
 
-    #locations .text{
-        color: black;
-        opacity: 1;
-    }
+  footer h4 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #locations .text {
+    color: black;
+    opacity: 1;
+  }
 }
